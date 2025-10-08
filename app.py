@@ -4,6 +4,10 @@ import io
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "PDF Handwriting Backend is running"
+
 @app.route('/upload', methods=['POST'])
 def upload():
     file = request.files.get('file')
