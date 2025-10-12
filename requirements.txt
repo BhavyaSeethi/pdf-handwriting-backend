@@ -1,2 +1,6 @@
 flask
 pillow
+opencv-python
+numpy
+pdfplumber
+reportlab
